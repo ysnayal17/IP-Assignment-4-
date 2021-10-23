@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+a.btn-content {
+    color: black !important;
+}
+main.header {
+    padding: 7% 15%;
+    position: relative;
+    bottom: 58%;
+    height: 80%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.lead {
+    margin: 3% 10%;
+    height: 40%;
+}
+.card {
+    width: 18rem;
+    margin: 0 7%;
+    height: 70%;
+    overflow: scroll;
+    animation: mymove 3s;
+}
+.row {
+    padding: 2% 10%;
+}
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    color: #fff;
+}
+.carousel {
+    position: relative;
+    /* bottom: 20%; */
+}
+.contact {
+    color: #fff;
+}
+@keyframes mymove {
+    from {top: 200px}
+    to {top: 0px;}
+}
